@@ -1,0 +1,85 @@
+:root {
+  /* 主色系统 */
+  --color-primary: #A8E6CF;
+  --color-primary-dark: #7FD4B0;
+  --color-primary-light: #C8F0DC;
+
+  /* 分类色 */
+  --color-keep: #7FBEAF;
+  --color-keep-light: #E8F5F0;
+  --color-review: #C4A86B;
+  --color-review-light: #F5EFE0;
+  --color-clean: #C47B7B;
+  --color-clean-light: #F5E6E6;
+
+  /* 中性色 */
+  --color-bg: #F2F6F7;
+  --color-card: #FFFFFF;
+  --color-text-primary: #1C1C1E;
+  --color-text-secondary: #8E8E93;
+  --color-text-tertiary: #C7C7CC;
+  --color-border: #E5E5EA;
+  --color-separator: #F2F2F7;
+
+  /* 辅助色 */
+  --color-info: #007AFF;
+  --color-warning: #FF9500;
+  --color-danger: #FF3B30;
+  --color-success: #34C759;
+
+  /* 分布进度条色 */
+  --color-dist-scenery: #7FD4B0;
+  --color-dist-people: #A8E6CF;
+  --color-dist-screenshot: #E8C4A0;
+  --color-dist-daily: #C7C7CC;
+
+  /* 字体 */
+  --font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-size-xs: 11px;
+  --font-size-sm: 13px;
+  --font-size-base: 15px;
+  --font-size-md: 17px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 48px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* 圆角 */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* 间距 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 20px;
+  --spacing-2xl: 24px;
+  --spacing-3xl: 32px;
+
+  /* 阴影 */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.06);
+
+  /* 导航栏 */
+  --nav-height: 44px;
+  --tab-bar-height: 56px;
+
+  /* 动画 */
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-slow: 300ms;
+  --ease-default: cubic-bezier(0.25, 0.4, 00, 1);
+
+  /* 页面最大宽度（桌面端居中） */
+  --max-page-width: 430px;
+}
